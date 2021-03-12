@@ -50,4 +50,15 @@ div ul li a {
     border: solid 1px white;
     border-radius: 5px;
 }
+.custom-footer {
+    font-family: 'Russo One', sans-serif;
+    background-color: black;
+}
+.custom-h5 {
+    margin: 80px 120px 80px 120px;
+    font-size: 2em;
+}
+/* .image-fluid {
+    border-radius: 50%;
+} */
 
