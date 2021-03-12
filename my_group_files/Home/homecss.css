@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+
+.navbar-custom{
+    background-color: black;
+    height: 8rem;
+    font-family: 'Russo One', sans-serif;
+}
+div ul li a {
+    font-size: 1.5rem;
+}
+.max-height{
+    
+    min-height: calc(100vh - 128px);
+    background: url('/Users/Plfrantic/Downloads/Group-project-main/Group-project-main/my_group_files/images/siteMainImage.png')center/cover no-repeat fixed;
+    display: block;
+}
+.about-picture{
+    background: url(/Users/Plfrantic/Downloads/Group-project-main/Group-project-main/my_group_files/images/iStock-1223133311.jpg)center/cover no-repeat;
+}
+.height-80{
+ min-height:80vh;
+}
+.custom-about{
+    background-color: black;
+}
+#pricing-cards {
+    background: #787ba3;
+}
+ 
+#pricing-cards .dollar-sign {
+    font-size: 2.5em;
+}
+ 
+.single-item-1:hover, .single-item-2:hover, .single-item-3:hover {
+  box-shadow: 0 10px 15px black;
+}
+.single-item-1 {
+    background-color: #CD7F32;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.single-item-2 {
+    background-color: silver;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.single-item-3 {
+    background-color: rgb(235, 194, 15);
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
