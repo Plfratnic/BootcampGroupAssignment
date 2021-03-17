@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+
+.navbar-custom{
+    background-color: black;
+    height: 8rem;
+    font-family: 'Russo One', sans-serif;
+}
+div ul li a {
+    font-size: 1.5rem;
+}
+.imageCat{
+    max-width:100%;
+    max-height:100%;
+}
+button {
+    background: none;
+    color:#6098ff;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+  }
+  
+  button:hover {
+    border-color: #e75cff;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+.wrapper { 
+    /* border : 5px solid #000;  */
+    overflow:hidden;
+    background-color: grey;
+  }
+  
+  .wrapper div {
+     min-height: 300px;
+     padding: 10px;
+  }
+  #one {
+    background-color: black;
+    float:left; 
+    margin-right:2px;
+    width:500px;
+    border-right:2px solid #000;
+  }
+  #two { 
+    background-color: grey;
+    overflow:hidden;
+    margin:10px;
+    border:2px dashed #ccc;
+    min-height:170px;
+  }
+  
+  @media screen and (max-width: 400px) {
+     #one { 
+      float: none;
+      margin-right:0;
+      width:auto;
+      border:0;
+      border-bottom:10px solid #000;    
+    }
+  }
